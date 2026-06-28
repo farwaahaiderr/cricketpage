@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background-image:url("./bg\ image.png");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+/* HEADER */
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:#1d004d;
+    color:white;
+    text-align:center;
+    padding:20px;
+    text-shadow:2px 2px 4px black;
+    z-index:1000;
+}
+
+/* MAIN CONTENT */
+
+main{
+    padding-top:110px;
+    text-align:center;
+}
+
+/* TEAM TITLE */
+
+main h2{
+    color:white;
+    text-shadow:2px 2px 4px black;
+    margin-bottom:10px;
+}
+
+main h3{
+    color:white;
+    text-shadow:2px 2px 4px black;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+/* COACH CARDS */
+
+article{
+    display:inline-block;
+    width:220px;
+    margin:20px;
+    border:5px solid white;
+    border-radius:15px;
+    overflow:hidden;
+    vertical-align:top;
+    background:white;
+}
+
+article img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    display:block;
+}
+
+article p{
+    background-color:#1d004d;
+    color:white;
+    padding:10px;
+    font-weight:bold;
+}
+
+/* STAR PLAYERS SECTION */
+
+.players-container{
+    margin-top:30px;
+}
+
+.players-box{
+    width:500px;
+    margin:20px auto;
+    background:white;
+    border-radius:15px;
+    padding:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+}
+
+.players-heading{
+    text-align:center;
+    color:#1d004d;
+    margin-bottom:15px;
+    text-shadow:none;
+}
+
+.players-scroll{
+    height:280px;
+    overflow-y:scroll;
+}
+
+.player{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.player img{
+    width:350px;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.player p{
+    margin-top:10px;
+    font-weight:bold;
+    color:#1d004d;
+}
+
+/* TABLE */
+
+table{
+    width:70%;
+    margin:40px auto;
+    border-collapse:collapse;
+    background:white;
+}
+
+th{
+    background-color:#1d004d;
+    color:white;
+    padding:15px;
+}
+
+td{
+    padding:15px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+tr:nth-child(even){
+    background-color:#f2f2f2;
+}
+
+/* FOOTER */
+
+footer{
+    background-color:#1d004d;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+footer p{
+    margin:5px 0;
+}
